@@ -4,7 +4,8 @@ import { passwordList } from './api/passwordManager'
 
 export default function Login(props) {
     const router = useRouter()
-    const correctPassword=""
+    const correctPassword="" 
+    const h = 2
     const passwordValidation=(event) => {
         
         event.preventDefault() //Stop page from refreshing on submit//
